@@ -22,7 +22,9 @@ Iniciar el servidor:
 pnpm start
 ```
 Permite ejecutar el backend desde la dirección:
+```
 http://localhost:3000
+```
 El puerto 3000 se maneja por defecto.
 
 ### Endpoints (Mapa)
@@ -36,6 +38,7 @@ El puerto 3000 se maneja por defecto.
 
 ## Ejemplos de Request/Response
 ### 1. Todos los libros (GET /api/libros)
+```
 {
   "exito": true,
   "total": 8,
@@ -54,8 +57,9 @@ El puerto 3000 se maneja por defecto.
     }
   ]
 }
-
+```
 ### 2. Libros disponibles (GET /api/libros/disponibles)
+```
 {
   "exito": true,
   "total": 3,
@@ -68,7 +72,9 @@ El puerto 3000 se maneja por defecto.
     }
   ]
 }
+```
 ### 3. Filtrar por categoría (GET /api/libros/categoria/programacion)
+```
 {
   "exito": true,
   "categoria": "programacion",
@@ -82,14 +88,16 @@ El puerto 3000 se maneja por defecto.
     }
   ]
 }
+```
 
 ### 4. Vista simple (GET /vista)
+```
 <h1>Catálogo de la Biblioteca</h1>
 <ul>
   <li>Introducción a los Algoritmos — Thomas H. Cormen</li>
   <li>Clean Code — Robert C. Martin</li>
 </ul>
-
+```
 ## Pruebas con Postman/Thunder Client
 Se ha realizado pruebas de cada endpoint evidenciadas en las capturas de pantalla con respuestas en JSON en Postman y la vista HTML en navegador.
 
