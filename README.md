@@ -9,10 +9,18 @@ Luego, realizar pruebas con Postman/Thunder Client.
 ## Instalación
 Se ha utlizado PNPM por decisión personal que es muy similar a NPM y realiza la misma función.
 
+Para ejecutar este proyecto: Clonar el repositorio desde GitHub y tener instalado Node.js junto con el gestor de paquetes PNPM(Casi igual a NPM). 
+```
+pnpm install
+pnpm start
+```
+Como las librerías no están incluidas en el repositorio (se omite la carpeta `node_modules`), debes instalar todas las dependencias ejecutando `pnpm install` en la raíz del proyecto. Una vez completada la instalación, puedes iniciar la aplicación con `pnpm start`. 
+
 ### Ejecución
 Iniciar el servidor:
-' pnpm start '
-
+```
+pnpm start
+```
 Permite ejecutar el backend desde la dirección:
 http://localhost:3000
 El puerto 3000 se maneja por defecto.
